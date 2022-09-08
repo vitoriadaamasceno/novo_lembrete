@@ -34,3 +34,5 @@ Bibliotecas
  - VIEWS = onde ficam as rotas da API
  - PREPARA_BANCO = código que cria o banco de dados e insere as primeiras informações
  - MODELS = modelos das tabelas do banco de dados.
+ 
+ ![alt text](https://github.com/vitoriadaamasceno/novo_lembrete/blob/main/interface.png)
