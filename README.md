@@ -18,7 +18,8 @@ Bibliotecas
 - SQLAlchemy-Utils
 
 *Instalações
-- MySql
+- MySql 
+- obs: caso tenha o xampp na máquina não é necessário instalar, apenas inicar o banco, acessando o painel)
 
 *Passo a Passo
 - Após clonar o repositório em sua máquina.
