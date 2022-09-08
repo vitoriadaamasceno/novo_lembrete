@@ -20,22 +20,21 @@
 <table class="table table-striped table-responsive table-bordered">
     <thead class="thead-default">
         <tr>
-            <th>Data</th>
             <th>Lista de Lembretes</th>
-            <th>Deletar</th>
+        
+            
             
         </tr>
     </thead>
     <tbody>
          {% for lembrete in lembrete %}
         <tr>
-            <td>{{lembrete.data}}</td>
-            <td>{{lembrete.nome}}</td>
-            <td><a class="btn btn-danger" href="{{url_for('deletar',id=lembrete.id)}}">X</a>
-            </td>
+            <td>{{lembrete.data.strftime('%d-%m-%Y')}}</td>
+             <tr><td>{{lembrete.nome}}    <a class="btn btn-danger" href="{{url_for('deletar',id=lembrete.id)}}">X</a></td></tr>
+
             
-            <!--o id no urlfor determina que a edição vai seer personalizada para quele item -->
         </tr>
+
         {% endfor %}
     </tbody>
 </table>
