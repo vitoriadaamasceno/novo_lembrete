@@ -28,3 +28,9 @@ Bibliotecas
 - Dê um deploy na aba prepara_banco.py para que o banco de dados seja criado com sucesso.
 - Acesso a página app.py e incia a API.
 
+ *Sobre as pastas
+ - API = onde roda a api e inicia o projeto
+ - CONFIG = todas as configurações do projeto e do banco de dados, onde também tem as informações de acesso ao banco.
+ - VIEWS = onde ficam as rotas da API
+ - PREPARA_BANCO = código que cria o banco de dados e insere as primeiras informações
+ - MODELS = modelos das tabelas do banco de dados.
