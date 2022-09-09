@@ -27,15 +27,18 @@
         </tr>
     </thead>
     <tbody>
+        {% if lembrete.data == datas  %}
          {% for lembrete in lembrete %}
         <tr>
+        
             <td>{{lembrete.data.strftime('%d-%m-%Y')}}</td>
              <tr><td>{{lembrete.nome}}    <a class="btn btn-danger" href="{{url_for('deletar',id=lembrete.id)}}">X</a></td></tr>
-
+        
             
         </tr>
 
         {% endfor %}
+        {% endif %}
     </tbody>
 </table>
 {% endblock %}
